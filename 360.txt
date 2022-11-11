@@ -1,0 +1,58 @@
+360影视最新规则。
+
+-----------------电视剧类------------------
+电视剧、电影、综艺、动漫API：https://api.web.360kan.com/v1/filter/list?
+这里以电视剧为例，其他分类类似，自行推敲或者使用fiddler自己看一下。
+catid= 为分类，1为电影，2为电视剧，3为综艺，4为动漫（必填）
+rank= 为排序，rankhot为最近热映，ranklatest为最近上映，rankpoint为最受好评（综艺跟动漫没有这个，可为空）
+cat= 为类型，如言情，剧情，伦理....（可为空）
+year= 年代，2021,2020,2019...（可为空）
+area= 地区，如内地，中国香港，中国台湾...（可为空）
+act= 为明星，如孙俪，杨幂，文章....（可为空）
+size= 每次获取多少数目，比如size=20就是获取20个（可为空）
+pageno= 为页码，默认从1开始（必填）
+
+以上带入参数为空则表示全部内容
+
+既然知道了大概的方法，就来举个例子
+例如：https://api.web.360kan.com/v1/filter/list?catid=2&rank=rankhot&cat=都市&year=2021&area=内地&act=孙俪&size=20&pageno=1
+
+这个就是获取了电视剧类，最近热映，全部类型，2021年，内地地区，孙俪出演的电视剧。
+
+----------------------------------详情页（电视剧为例）------------------------------
+详情页API：https://api.web.360kan.com/v1/detail?
+cat= 为分类，1为电影，2为电视剧，3为综艺，4为动漫
+id= 为视频的地址，例如：《理想之城》ID为“Q4VpbH7lSmXuOH”，这个可在json中看到。
+例如《速度与激情9》：https://api.web.360kan.com/v1/detail?cat=1&id=hqTnYRH6RXP2Tx
+例如《与君歌》：https://api.web.360kan.com/v1/detail?cat=2&id=QbRrbX7lSmXsOX
+
+-----------------搜索类目------------------
+&kw= 为搜索内容，比如：龙猫
+https://api.so.360kan.com/index?force_v=1&kw=龙猫
+后面还有&from=&pageno=1&v_ap=1&tab=all&cb=__jp0这些参数,我测试了一下，后面这些可以不用添加进去也是一样的。
+
+↓↓↓↓↓↓↓↓↓获取数量可根据自己需求在链接尾部设置，&size=xxx（获取数量，比如:&size=6）↓↓↓↓↓↓↓↓↓
+首页滚动导航
+https://api.web.360kan.com/v1/block?blockid=522
+新剧热播
+https://api.web.360kan.com/v1/block?blockid=131
+电视剧排行榜
+https://api.web.360kan.com/v1/rank?cat=3&size=8
+百变综艺
+https://api.web.360kan.com/v1/block?blockid=43
+综艺排行榜
+https://api.web.360kan.com/v1/rank?cat=4&size=8
+热门电影
+https://api.web.360kan.com/v1/block?blockid=90
+电影排行榜
+https://api.web.360kan.com/v1/rank?cat=2&size=9
+儿童乐园
+https://api.web.360kan.com/v1/block?blockid=25
+儿童排行榜
+https://api.web.360kan.com/v1/rank?cat=6&size=10
+动漫世界
+https://api.web.360kan.com/v1/block?blockid=72
+动漫排行榜
+https://api.web.360kan.com/v1/rank?cat=5&size=10
+另外一个不知道是那个板块的
+https://api.web.360kan.com/v1/query/addef?ver=2&fmt=jsonp&t=2728543
