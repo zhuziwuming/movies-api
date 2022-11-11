@@ -1,0 +1,89 @@
+电视剧列表接口：https://tv.2345.com/类型-地区--时间--页数.html(参数可为空)
+
+
+电视剧详情接口：//tv.2345.com/detail/代码.html
+
+页数表示
+//tv.2345.com/-----.html
+//tv.2345.com/-----2.html
+//tv.2345.com/-----3.html
+//tv.2345.com/-----4.html
+//tv.2345.com/-----5.html
+
+总筛选区
+328-428行
+
+---排序筛选
+//tv.2345.com/-----.html       ###默认最热
+//tv.2345.com/----score-.html  ###最新排序
+
+---类型筛选
+349-353行
+href="//tv.2345.com/yanqing---.html    ###言情
+href="//tv.2345.com/ouxiang---.html    ###偶像
+href="//tv.2345.com/dushi---.html      ###都市
+href="//tv.2345.com/zhanzheng---.html  ###战争
+href="//tv.2345.com/xuanyi---.html     ###悬疑
+href="//tv.2345.com/lunli---.html      ###伦理
+href="//tv.2345.com/jingsong---.html   ###惊悚
+href="//tv.2345.com/wangluoju---.html  ###网络剧
+href="//tv.2345.com/jingfei---.html    ###警匪
+href="//tv.2345.com/guzhuang---.html   ###古装
+href="//tv.2345.com/wuxia---.html      ###武侠
+href="//tv.2345.com/shenhua---.html    ###神话
+href="//tv.2345.com/lishi---.html      ###历史
+href="//tv.2345.com/dongzuo---.html    ###动作
+href="//tv.2345.com/diezhan---.html    ###谍战
+href="//tv.2345.com/xiju---.html       ###喜剧
+href="//tv.2345.com/kangri---.html     ###抗日
+href="//tv.2345.com/jiating---.html    ###家庭
+href="//tv.2345.com/juqing---.html     ###剧情
+href="//tv.2345.com/lizhi---.html      ###励志
+href="//tv.2345.com/nongcun---.html    ###农村
+href="//tv.2345.com/kehuan---.html     ###科幻
+href="//tv.2345.com/junlv---.html      ###军旅
+href="//tv.2345.com/qihuan---.html     ###奇幻
+href="//tv.2345.com/qita---.html       ###其它
+
+---地区筛选
+354-378行
+<a href="//tv.2345.com/-neidi--.html      ###内地
+<a href="//tv.2345.com/-taiwan--.html     ###台湾
+<a href="//tv.2345.com/-xianggang--.html  ###香港
+<a href="//tv.2345.com/-hanguo--.html     ###韩国
+<a href="//tv.2345.com/-meiguo--.html     ###美国
+<a href="//tv.2345.com/-taiguo--.html     ###泰国
+<a href="//tv.2345.com/-riben--.html      ###日本
+<a href="//tv.2345.com/-yingguo--.html    ###英国
+<a href="//tv.2345.com/-xinjiapo--.html   ###新加坡
+<a href="//tv.2345.com/-qita--.html       ###其它
+
+---年代筛选
+379-413行
+href="//tv.2345.com/---2022.html       ###2022
+href="//tv.2345.com/---2021.html       ###2021
+href="//tv.2345.com/---2020.html       ###2020
+href="//tv.2345.com/---2019.html       ###2019
+href="//tv.2345.com/---2018.html       ###2018
+href="//tv.2345.com/---2017.html       ###2017
+href="//tv.2345.com/---2016.html       ###2016
+href="//tv.2345.com/---2015.html       ###2015
+href="//tv.2345.com/---2014.html       ###2014
+href="//tv.2345.com/---2013.html       ###2013
+href="//tv.2345.com/---2012.html       ###2012
+href="//tv.2345.com/---2011.html       ###2011
+href="//tv.2345.com/---20102000.html   ###2010-2000
+href="//tv.2345.com/---19991990.html   ###90年代
+href="//tv.2345.com/---19891800.html   ###更早
+
+---状态筛选
+414-426行
+<a rel="nofollow" href="//tv.2345.com/---.html?1    ###全集
+<a rel="nofollow" href="//tv.2345.com/---.html?2    ###更新中         
+<a rel="nofollow" href="//tv.2345.com/---.html?3    ###预告      
+<a rel="nofollow" href="//tv.2345.com/---.html?4    ###会员
+
+
+列表---
+433-1027行
+

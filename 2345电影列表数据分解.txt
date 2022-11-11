@@ -1,0 +1,119 @@
+
+电影列表接口:http://dianying.2345.com/list/类型-地区---时间---页数.html(参数可为空)
+
+电影详情页面：//dianying.2345.com/detail/代码.html
+
+页数表示
+//dianying.2345.com/list/------.html
+//dianying.2345.com/list/-------2.html
+//dianying.2345.com/list/-------3.html
+//dianying.2345.com/list/-------4.html
+
+
+
+筛选接口328行 -571行
+---总分类筛选
+331行-337行
+http://dianying.2345.com/list/------.html###电影分类
+http://tv.2345.com/-----.html              ####电视剧分类
+http://dongman.2345.com/lt               ####动漫分类
+http://kan.2345.com/zongyi/l/            ####综艺分类
+http://dianying.2345.com/mingxing/list/  ####明星分类
+
+---电影排序
+339行-351行
+//dianying.2345.com/list/------.html###默认排序-最热
+//dianying.2345.com/list/-----hits-.html####最新排序
+
+
+---类型筛选
+352行-488行
+<span><a href="//dianying.2345.com/list/aiqing------.html"         ###爱情"
+                                                                   ###  
+<span><a href="//dianying.2345.com/list/dongzuo------.html"        ###动作"
+                                                                   ###    
+<span><a href="//dianying.2345.com/list/xiju------.html"           ###喜剧"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/zhanzheng------.html"      ###战争"
+                                                                   ###     
+<span><a href="//dianying.2345.com/list/kehuan------.html"         ###科幻"
+                                                                   ###     
+<span><a href="//dianying.2345.com/list/juqing------.html"         ###剧情"
+                                                                   ###       
+<span><a href="//dianying.2345.com/list/wuxia------.html"          ###武侠"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/maoxian------.html"        ###冒险"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/qiangzhan------.html"      ###枪战"
+                                                                   ###       
+<span><a href="//dianying.2345.com/list/kongbu------.html"         ###恐怖"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/xuanyi------.html"         ###悬疑"
+                                                                   ###     
+<span><a href="//dianying.2345.com/list/fanzui------.html"         ###犯罪"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/qihuan------.html"         ###奇幻"
+                                                                   ###       
+<span><a href="//dianying.2345.com/list/donghua------.html"        ###动画"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/jingsong------.html"       ###惊悚"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/jingdian------.html"       ###经典"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/qingchun------.html"       ###青春"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/wenyi------.html"          ###文艺"
+                                                                   ###       
+<span><a href="//dianying.2345.com/list/weidianying------.html"    ###微电影"
+                                                                   ###       
+<span><a href="//dianying.2345.com/list/guzhuang------.html"       ###古装"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/lishi------.html"          ###历史"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/yundong------.html"        ###运动"
+                                                                   ###       
+<span><a href="//dianying.2345.com/list/nongcun------.html"        ###农村"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/ertong------.html"         ###儿童"
+                                                                   ###      
+<span><a href="//dianying.2345.com/list/wangluodianying------.html ###网络电影"
+                                                                   ###"     
+<span><a href="//dianying.2345.com/list/qita------.html"           ###其它"
+
+---地区筛选
+489行-524行
+<a href="//dianying.2345.com/list/-neidi-----.html                 ###内地
+<a href="//dianying.2345.com/list/-meiguo-----.html                ###美国
+<a href="//dianying.2345.com/list/-xianggang-----.html             ###香港
+<a href="//dianying.2345.com/list/-taiwan-----.html                ###台湾
+<a href="//dianying.2345.com/list/-riben-----.html                 ###日本
+<a href="//dianying.2345.com/list/-taiguo-----.html                ###泰国
+<a href="//dianying.2345.com/list/-yindu-----.html                 ###印度
+<a href="//dianying.2345.com/list/-dongnanyadiqu-----.html         ###东南亚地区
+<a href="//dianying.2345.com/list/-oumeidiqu-----.html             ###欧美地区
+<a href="//dianying.2345.com/list/-qita-----.html                  ###其它
+
+---年代筛选
+525-556行
+href="//dianying.2345.com/list/----2021--.html    ###2021       
+href="//dianying.2345.com/list/----2020--.html    ###2020       
+href="//dianying.2345.com/list/----2019--.html    ###2019       
+href="//dianying.2345.com/list/----2018--.html    ###2018       
+href="//dianying.2345.com/list/----2017--.html    ###2017       
+href="//dianying.2345.com/list/----2016--.html    ###2016       
+href="//dianying.2345.com/list/----2015--.html    ###2015       
+href="//dianying.2345.com/list/----2014--.html    ###2014       
+href="//dianying.2345.com/list/----2013--.html    ###2013       
+href="//dianying.2345.com/list/----2012--.html    ###2012      
+href="//dianying.2345.com/list/----2011--.html    ###2011      
+href="//dianying.2345.com/list/----20102000--.html###2010-2000
+href="//dianying.2345.com/list/----19691800--.html###更早
+
+---状态筛选
+557-569行
+//dianying.2345.com/list/------.html?1 ###免费
+//dianying.2345.com/list/------.html?2 ###预告
+//dianying.2345.com/list/------.html?3 ###会员
+
+---列表数据
+627行-1990行
